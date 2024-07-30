@@ -1,4 +1,5 @@
-import CoreConcept from './UI/CoreConcept';
+import CoreConcept from '../UI/CoreConcept/CoreConcept';
+import './Main.css';
 
 const Main = ({ list }) => {
   const core = list.map((id) => {
